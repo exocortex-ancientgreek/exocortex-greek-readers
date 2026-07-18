@@ -1,7 +1,7 @@
 # Exocortex — Ancient Greek Readers
 
 **22 public-domain Ancient Greek readers** — adapted texts, graded stories and exercise
-books from the 19th century — digitised from my own scans, OCR'd **twice** and collated by hand
+books from the 19th century — digitised from public scans, OCR'd **twice** and collated by hand
 against the print.
 
 **▶ Read online: https://exocortex-ancientgreek.github.io/exocortex-greek-readers/**
