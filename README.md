@@ -96,6 +96,35 @@ click any word for dictionary entry, morphology and inflection tables, no extens
 | [Начальная греческая хрестоматия](readers/cherny-chrestomathy-1/index.html) | Эмилий Чёрный | 1,988 | 17,145 | [scan](https://ancientlibrary.yatsishin.com/book/62) |
 | [Начальная греческая хрестоматия (т. 2)](readers/cherny-chrestomathy-2/index.html) | Эмилий Чёрный | 2,204 | 20,414 | [scan](https://ancientlibrary.yatsishin.com/book/59) |
 
+## Why this exists
+
+I am building this **for my own learning first**: I need large amounts of readable, level-
+appropriate Greek — comprehensible input — and most of it exists only as page images of
+19th-century books. Digitising them is what makes that reading practical, and putting the
+results online costs nothing extra.
+
+These texts also feed a **larger project on reading Ancient Greek**, which will be presented
+later. This repository is the part of it that is useful on its own, so it is public now.
+
+## Related projects
+
+**[Greek Learner Texts Project](https://greek-learner-texts.org/)** — the direct inspiration
+for this repository. A collaborative effort (James Tauber, Seumas Macdonald, Fletcher Hardison
+and others) producing openly-licensed, annotated Greek texts specifically for **extensive
+reading**, with vocabulary lists and linguistic annotation. They got there first and set the
+example; this collection is larger in raw volume of graded readers, but theirs is richer in
+annotation and is a proper collaborative project. Start there too.
+
+**[Open Greek Corpus](https://github.com/open-greek/open-greek-corpus)** — the same idea applied
+to the **originals** rather than to learner adaptations: a free counterpart to the subscription
+corpora, combining open digital editions with large-scale OCR of public-domain printed volumes
+(~1,125 OCR'd works). If you want Herodotus rather than "Herodotus in Easy Attic Greek", that is
+where to look. (Their linguistic data has also been useful to me elsewhere.)
+
+Both are worth supporting. The three of us are digging the same tunnel from different ends:
+they cover the original literature and the annotation layer, this repository covers the graded
+on-ramp that gets a learner to the point of reading it.
+
 ## Licence
 
 The **texts** are in the public domain. The **digitisation layer** — transcription, proofreading,
