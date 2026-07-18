@@ -80,7 +80,7 @@ click any word for dictionary entry, morphology and inflection tables, no extens
 | [First Greek Course](readers/first-greek-course/index.html) | after G. Curtius | 940 | 9,409 | [scan](https://archive.org/details/afirstgreekcour00schegoog) |
 | [First Greek Reader](readers/coy-first-greek-reader/index.html) | Edward G. Coy | 2,270 | 16,542 | [scan](https://archive.org/details/firstgreekreade00coygoog) |
 | [First Greek Reader](readers/mayor-first-greek-reader/index.html) | John E. B. Mayor | 4,691 | 31,072 | [scan](https://archive.org/details/firstgreekreade00mayogoog) |
-| [First Greek Reader](readers/moss-first-greek-reader/index.html) | Charles M. Moss | 2,060 | 14,557 | — |
+| [First Greek Reader](readers/moss-first-greek-reader/index.html) | Charles M. Moss | 2,060 | 14,557 | [scan](https://archive.org/details/firstgreekreader00mossrich) |
 | [First Greek Reading Book](readers/smith-first-greek-reading-book/index.html) | Sir William Smith | 2,612 | 19,116 | [scan](https://archive.org/details/firstgreekreadin00smituoft) |
 | [Salamis in Easy Attic Greek](readers/edwards-salamis/index.html) | G. M. Edwards | 782 | 5,176 | [scan](https://archive.org/details/salamisineasyatt00edwa) |
 | [Second Greek Reader](readers/bell-second-greek-reader/index.html) | A. M. Bell | 2,385 | 16,921 | [scan](https://archive.org/details/secondgreekread00xenogoog) |
