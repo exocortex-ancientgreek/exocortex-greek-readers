@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en" data-theme="sepia">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exocortex — Ancient Greek Readers</title>
+<meta name="description" content="Public-domain Ancient Greek readers, digitised and proofread. 22 texts, ~357,770 words.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f4ec;--paper:#fffdf6;--ink:#1d1c18;--muted:#7a7566;--rule:#e3ddc9;--accent:#6b5a2e;--head:#2f3b2f;--headink:#f1ecda}
+html[data-theme="dark"]{--bg:#14161a;--paper:#1b1e24;--ink:#e6e3da;--muted:#9aa0aa;--rule:#2c313a;--accent:#c8ab6a;--head:#0f1114;--headink:#e6e3da}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,Segoe UI,Roboto,sans-serif}
+header{background:var(--head);color:var(--headink)}
+header .wrap{max-width:1080px;margin:0 auto;padding:26px 20px}
+header h1{margin:0;font-family:"Gentium Plus",Georgia,serif;font-size:29px;font-weight:700}
+header p{margin:8px 0 0;opacity:.82;font-size:14.5px;line-height:1.6;max-width:60ch}
+header .links{margin-top:14px;display:flex;gap:14px;flex-wrap:wrap;font-size:13px}
+header a{color:var(--headink);opacity:.85}
+.btn{font:inherit;font-size:12.5px;padding:5px 10px;border:1px solid #ffffff2e;background:#ffffff12;color:inherit;border-radius:7px;cursor:pointer}
+main{max-width:1080px;margin:0 auto;padding:26px 20px 60px}
+.stats{color:var(--muted);font-size:13.5px;margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{display:block;background:var(--paper);border:1px solid var(--rule);border-radius:11px;padding:16px 18px;text-decoration:none;color:inherit;transition:.12s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:0 4px 14px #0000000f}
+.card h3{margin:0;font-family:"Gentium Plus",Georgia,serif;font-size:19px;font-weight:700;line-height:1.25}
+.card .au{margin:5px 0 0;font-size:13px;color:var(--accent)}
+.card .ed{margin:7px 0 0;font-size:12.5px;color:var(--muted);line-height:1.45}
+.card .st{margin:12px 0 0;display:flex;gap:12px;font-size:11.5px;color:var(--muted);flex-wrap:wrap}
+footer{max-width:1080px;margin:0 auto;padding:0 20px 50px;color:var(--muted);font-size:13px;line-height:1.65;border-top:1px solid var(--rule)}
+footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Exocortex — Ancient Greek Readers</h1>
+  <p data-i18n="lede">Public-domain Greek readers — adapted texts, graded stories and exercise books from the 19th century — digitised from my own scans, OCR'd twice and collated by hand against the print. Free to read online; Alpheios-friendly.</p>
+  <div class="links">
+    <a href="https://github.com/exocortex-ancientgreek/exocortex-greek-readers" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://t.me/exocortex_ancientgreek" target="_blank" rel="noopener">Telegram</a>
+    <a href="https://www.youtube.com/@exocortex_ancientlanguages" target="_blank" rel="noopener">YouTube</a>
+    <span style="flex:1"></span>
+    <button class="btn" id="tLang">УК</button>
+    <button class="btn" id="tTheme">◐</button>
+  </div>
+</div></header>
+<main>
+  <p class="stats"><span id="stats">22 readers · 45,933 lines · ~357,770 words · ~156 hours of reading</span></p>
+  <div class="grid">
+  <a class="card" href="readers/beresford-douglas-first-greek-reader/index.html">
+    <h3>A First Greek Reader</h3>
+    <p class="au">R. Beresford &amp; R. Douglas</p>
+    <p class="ed">A First Greek Reader</p>
+    <p class="st"><span>1,406 <i data-i18n="lines">lines</i></span><span>~8,917 <i data-i18n="words">words</i></span><span>~3.9 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/rouse-greek-boy-at-home/index.html">
+    <h3>A Greek Boy at Home</h3>
+    <p class="au">W. H. D. Rouse</p>
+    <p class="ed">A Greek Boy at Home: a story written in Greek</p>
+    <p class="st"><span>4,067 <i data-i18n="lines">lines</i></span><span>~30,706 <i data-i18n="words">words</i></span><span>~13.4 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/freeman-lowe-greek-reader-for-schools/index.html">
+    <h3>A Greek Reader for Schools</h3>
+    <p class="au">C. E. Freeman &amp; W. D. Lowe</p>
+    <p class="ed">A Greek Reader for Schools (Aesop, Theophrastus, Lucian, Herodotus, Thucydides, Xenophon, Plato)</p>
+    <p class="st"><span>1,906 <i data-i18n="lines">lines</i></span><span>~15,126 <i data-i18n="words">words</i></span><span>~6.6 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/abbott-easy-greek-reader/index.html">
+    <h3>Easy Greek Reader</h3>
+    <p class="au">Evelyn Abbott</p>
+    <p class="ed">Easy Greek Reader</p>
+    <p class="st"><span>88 <i data-i18n="lines">lines</i></span><span>~7,660 <i data-i18n="words">words</i></span><span>~3.3 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/first-greek-course/index.html">
+    <h3>First Greek Course</h3>
+    <p class="au">after G. Curtius</p>
+    <p class="ed">A First Greek Course: delectus, exercise-book and vocabularies</p>
+    <p class="st"><span>940 <i data-i18n="lines">lines</i></span><span>~9,409 <i data-i18n="words">words</i></span><span>~4.1 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/coy-first-greek-reader/index.html">
+    <h3>First Greek Reader</h3>
+    <p class="au">Edward G. Coy</p>
+    <p class="ed">First Greek Reader: easy selections adapted from Xenophon and Thucydides</p>
+    <p class="st"><span>2,270 <i data-i18n="lines">lines</i></span><span>~16,542 <i data-i18n="words">words</i></span><span>~7.2 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/mayor-first-greek-reader/index.html">
+    <h3>First Greek Reader</h3>
+    <p class="au">John E. B. Mayor</p>
+    <p class="ed">First Greek Reader, with Notes and Vocabulary</p>
+    <p class="st"><span>4,691 <i data-i18n="lines">lines</i></span><span>~31,072 <i data-i18n="words">words</i></span><span>~13.5 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/moss-first-greek-reader/index.html">
+    <h3>First Greek Reader</h3>
+    <p class="au">Charles M. Moss</p>
+    <p class="ed">A First Greek Reader; with notes and vocabulary</p>
+    <p class="st"><span>2,060 <i data-i18n="lines">lines</i></span><span>~14,557 <i data-i18n="words">words</i></span><span>~6.3 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/smith-first-greek-reading-book/index.html">
+    <h3>First Greek Reading Book</h3>
+    <p class="au">Sir William Smith</p>
+    <p class="ed">A First Greek Reading Book: tales, anecdotes, fables, mythology, Grecian history</p>
+    <p class="st"><span>2,612 <i data-i18n="lines">lines</i></span><span>~19,116 <i data-i18n="words">words</i></span><span>~8.3 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/edwards-salamis/index.html">
+    <h3>Salamis in Easy Attic Greek</h3>
+    <p class="au">G. M. Edwards</p>
+    <p class="ed">Salamis in Easy Attic Greek</p>
+    <p class="st"><span>782 <i data-i18n="lines">lines</i></span><span>~5,176 <i data-i18n="words">words</i></span><span>~2.3 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/bell-second-greek-reader/index.html">
+    <h3>Second Greek Reader</h3>
+    <p class="au">A. M. Bell</p>
+    <p class="ed">Second Greek Reader: selections from Herodotus and Xenophon</p>
+    <p class="st"><span>2,385 <i data-i18n="lines">lines</i></span><span>~16,921 <i data-i18n="words">words</i></span><span>~7.4 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/colson-stories-and-legends/index.html">
+    <h3>Stories and Legends</h3>
+    <p class="au">F. H. Colson</p>
+    <p class="ed">Stories and Legends: a First Greek Reader</p>
+    <p class="st"><span>2,817 <i data-i18n="lines">lines</i></span><span>~20,759 <i data-i18n="words">words</i></span><span>~9 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/phillpotts-stories-from-herodotus/index.html">
+    <h3>Stories from Herodotus</h3>
+    <p class="au">J. S. Phillpotts</p>
+    <p class="ed">Stories from Herodotus in Attic Greek (Rhampsinitus; Marathon)</p>
+    <p class="st"><span>617 <i data-i18n="lines">lines</i></span><span>~4,886 <i data-i18n="words">words</i></span><span>~2.1 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/morice-stories-in-attic-greek/index.html">
+    <h3>Stories in Attic Greek</h3>
+    <p class="au">F. D. Morice</p>
+    <p class="ed">Stories in Attic Greek</p>
+    <p class="st"><span>3,178 <i data-i18n="lines">lines</i></span><span>~25,273 <i data-i18n="words">words</i></span><span>~11 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/farnell-tales-from-herodotus/index.html">
+    <h3>Tales from Herodotus</h3>
+    <p class="au">G. S. Farnell</p>
+    <p class="ed">Tales from Herodotus</p>
+    <p class="st"><span>1,390 <i data-i18n="lines">lines</i></span><span>~10,695 <i data-i18n="words">words</i></span><span>~4.7 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/lowe-wars-of-greece-and-persia/index.html">
+    <h3>The Wars of Greece and Persia</h3>
+    <p class="au">W. D. Lowe</p>
+    <p class="ed">The Wars of Greece and Persia: selections from Herodotus in Attic Greek</p>
+    <p class="st"><span>1,460 <i data-i18n="lines">lines</i></span><span>~8,122 <i data-i18n="words">words</i></span><span>~3.5 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/thucydides-easy-selections-moore/index.html">
+    <h3>Thucydides, Easy Selections</h3>
+    <p class="au">E. H. Moore</p>
+    <p class="ed">Easy Selections from Thucydides</p>
+    <p class="st"><span>2,403 <i data-i18n="lines">lines</i></span><span>~18,198 <i data-i18n="words">words</i></span><span>~7.9 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/xenophon-scenes-from-the-anabasis/index.html">
+    <h3>Xenophon, Scenes from the Anabasis</h3>
+    <p class="au">J. S. Phillpotts &amp; C. S. Jerram</p>
+    <p class="ed">Easy Selections: Scenes from the Anabasis</p>
+    <p class="st"><span>2,650 <i data-i18n="lines">lines</i></span><span>~21,080 <i data-i18n="words">words</i></span><span>~9.2 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/herwig-reading-and-exercises/index.html">
+    <h3>Зошит для читання і вправ</h3>
+    <p class="au">Christian Herwig</p>
+    <p class="ed">Зошит для читання і вправ</p>
+    <p class="st"><span>2,412 <i data-i18n="lines">lines</i></span><span>~18,978 <i data-i18n="words">words</i></span><span>~8.3 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/cherny-greek-etymology/index.html">
+    <h3>Книга упражнений в греческой этимологии</h3>
+    <p class="au">Эмилий Чёрный</p>
+    <p class="ed">Книга упражнений в греческой этимологии</p>
+    <p class="st"><span>1,607 <i data-i18n="lines">lines</i></span><span>~17,018 <i data-i18n="words">words</i></span><span>~7.4 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/cherny-chrestomathy-1/index.html">
+    <h3>Начальная греческая хрестоматия</h3>
+    <p class="au">Эмилий Чёрный</p>
+    <p class="ed">Начальная греческая хрестоматия, ч. 1</p>
+    <p class="st"><span>1,988 <i data-i18n="lines">lines</i></span><span>~17,145 <i data-i18n="words">words</i></span><span>~7.5 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/cherny-chrestomathy-2/index.html">
+    <h3>Начальная греческая хрестоматия (т. 2)</h3>
+    <p class="au">Эмилий Чёрный</p>
+    <p class="ed">Начальная греческая хрестоматия, ч. 2</p>
+    <p class="st"><span>2,204 <i data-i18n="lines">lines</i></span><span>~20,414 <i data-i18n="words">words</i></span><span>~8.9 <i data-i18n="hours">h</i></span></p>
+  </a></div>
+</main>
+<footer>
+  <p data-i18n="foot">Texts are in the public domain. The digitisation layer (transcription, proofreading, structure) is licensed <b>CC BY-NC 4.0</b>. Corrections and pull requests welcome.</p>
+</footer>
+<script>
+(function(){
+  var root=document.documentElement, LS=localStorage;
+  var T={en:{lines:"lines",words:"words",hours:"h",lang:"УК",
+    lede:"Public-domain Greek readers \u2014 adapted texts, graded stories and exercise books from the 19th century \u2014 digitised from my own scans, OCR'd twice and collated by hand against the print. Free to read online; Alpheios-friendly.",
+    stats:"22 readers \u00B7 45933 lines \u00B7 ~357770 words \u00B7 ~156 hours of reading",
+    foot:"Texts are in the public domain. The digitisation layer (transcription, proofreading, structure) is licensed <b>__LIC__</b>. Corrections and pull requests welcome."},
+   uk:{lines:"\u0440\u044F\u0434\u043A\u0456\u0432",words:"\u0441\u043B\u0456\u0432",hours:"\u0433",lang:"EN",
+    lede:"\u0414\u0430\u0432\u043D\u044C\u043E\u0433\u0440\u0435\u0446\u044C\u043A\u0456 \u0440\u0438\u0434\u0435\u0440\u0438 \u0443 \u0441\u0443\u0441\u043F\u0456\u043B\u044C\u043D\u043E\u043C\u0443 \u043D\u0430\u0434\u0431\u0430\u043D\u043D\u0456 \u2014 \u0430\u0434\u0430\u043F\u0442\u043E\u0432\u0430\u043D\u0456 \u0442\u0435\u043A\u0441\u0442\u0438, \u0433\u0440\u0430\u0434\u0443\u0439\u043E\u0432\u0430\u043D\u0456 \u0456\u0441\u0442\u043E\u0440\u0456\u0457 \u0442\u0430 \u0437\u0431\u0456\u0440\u043D\u0438\u043A\u0438 \u0432\u043F\u0440\u0430\u0432 XIX \u0441\u0442. \u2014 \u043E\u0446\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0456 \u0437 \u0432\u043B\u0430\u0441\u043D\u0438\u0445 \u0441\u043A\u0430\u043D\u0456\u0432, \u0434\u0432\u0430 \u043F\u0440\u043E\u0445\u043E\u0434\u0438 OCR \u0456 \u0440\u0443\u0447\u043D\u0430 \u0437\u0432\u0456\u0440\u043A\u0430 \u0437 \u0434\u0440\u0443\u043A\u043E\u043C.",
+    stats:"22 \u0440\u0438\u0434\u0435\u0440\u0456\u0432 \u00B7 45933 \u0440\u044F\u0434\u043A\u0456\u0432 \u00B7 ~357770 \u0441\u043B\u0456\u0432 \u00B7 ~156 \u0433\u043E\u0434\u0438\u043D \u0447\u0438\u0442\u0430\u043D\u043D\u044F",
+    foot:"\u0422\u0435\u043A\u0441\u0442\u0438 \u0443 \u0441\u0443\u0441\u043F\u0456\u043B\u044C\u043D\u043E\u043C\u0443 \u043D\u0430\u0434\u0431\u0430\u043D\u043D\u0456. \u0428\u0430\u0440 \u043E\u0446\u0438\u0444\u0440\u043E\u0432\u043A\u0438 (\u0442\u0440\u0430\u043D\u0441\u043A\u0440\u0438\u043F\u0446\u0456\u044F, \u0432\u0438\u0447\u0438\u0442\u043A\u0430, \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0430) \u2014 \u043F\u0456\u0434 <b>__LIC__</b>. \u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043D\u044F \u0442\u0430 pull request\u0438 \u0432\u0456\u0442\u0430\u044E\u0442\u044C\u0441\u044F."}};
+  var N=22, L=45933, W=357770, H=156, LIC="CC BY-NC 4.0";
+  var lang=LS.getItem('r.lang')||'en';
+  root.dataset.theme=LS.getItem('r.theme')||'sepia';
+  function fmt(s,loc){ return s.replace('22',N.toLocaleString(loc)).replace('45933',L.toLocaleString(loc)).replace('357770',W.toLocaleString(loc)).replace('156',H).replace('__LIC__',LIC); }
+  function apply(){ var t=T[lang], loc=(lang==='uk'?'uk':'en'); root.lang=loc;
+    document.querySelectorAll('[data-i18n]').forEach(function(el){ var k=el.getAttribute('data-i18n');
+      if(k==='foot'||k==='lede') el.innerHTML=fmt(t[k],loc); else el.textContent=t[k]; });
+    document.getElementById('stats').textContent=fmt(t.stats,loc);
+    document.getElementById('tLang').textContent=t.lang; LS.setItem('r.lang',lang); }
+  apply();
+  document.getElementById('tLang').onclick=function(){ lang=(lang==='en'?'uk':'en'); apply(); };
+  document.getElementById('tTheme').onclick=function(){ root.dataset.theme=(root.dataset.theme==='dark'?'sepia':'dark'); LS.setItem('r.theme',root.dataset.theme); };
+})();
+</script>
+</body></html>
