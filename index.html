@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Exocortex — Ancient Greek Readers</title>
-<meta name="description" content="Public-domain Ancient Greek readers, digitised and proofread. 22 texts, ~357,770 words.">
+<meta name="description" content="Public-domain Ancient Greek readers, digitised and proofread. 23 texts, ~384,375 words.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -34,7 +34,7 @@ footer a{color:var(--accent)}
 <body>
 <header><div class="wrap">
   <h1>Exocortex — Ancient Greek Readers</h1>
-  <p data-i18n="lede">Public-domain Greek readers — adapted texts, graded stories and exercise books from the 19th century — digitised from my own scans, OCR'd twice and collated by hand against the print. Free to read online; Alpheios-friendly.</p>
+  <p data-i18n="lede">Public-domain Greek readers — adapted texts, graded stories and exercise books from the 19th century — digitised from public scans, OCR'd twice and collated by hand against the print. Free to read online; Alpheios-friendly.</p>
   <div class="links">
     <a href="https://github.com/exocortex-ancientgreek/exocortex-greek-readers" target="_blank" rel="noopener">GitHub</a>
     <a href="https://t.me/exocortex_ancientgreek" target="_blank" rel="noopener">Telegram</a>
@@ -45,7 +45,7 @@ footer a{color:var(--accent)}
   </div>
 </div></header>
 <main>
-  <p class="stats"><span id="stats">22 readers · 45,933 lines · ~357,770 words · ~156 hours of reading</span></p>
+  <p class="stats"><span id="stats">23 readers · 49,650 lines · ~384,375 words · ~167 hours of reading</span></p>
   <div class="grid">
   <a class="card" href="readers/beresford-douglas-first-greek-reader/index.html">
     <h3>A First Greek Reader</h3>
@@ -58,6 +58,12 @@ footer a{color:var(--accent)}
     <p class="au">W. H. D. Rouse</p>
     <p class="ed">A Greek Boy at Home: a story written in Greek</p>
     <p class="st"><span>4,067 <i data-i18n="lines">lines</i></span><span>~30,706 <i data-i18n="words">words</i></span><span>~13.4 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/rouse-greek-reader/index.html">
+    <h3>A Greek Reader</h3>
+    <p class="au">W. H. D. Rouse</p>
+    <p class="ed">A Greek Reader</p>
+    <p class="st"><span>3,717 <i data-i18n="lines">lines</i></span><span>~26,605 <i data-i18n="words">words</i></span><span>~11.6 <i data-i18n="hours">h</i></span></p>
   </a>
   <a class="card" href="readers/freeman-lowe-greek-reader-for-schools/index.html">
     <h3>A Greek Reader for Schools</h3>
@@ -100,6 +106,12 @@ footer a{color:var(--accent)}
     <p class="au">Sir William Smith</p>
     <p class="ed">A First Greek Reading Book: tales, anecdotes, fables, mythology, Grecian history</p>
     <p class="st"><span>2,612 <i data-i18n="lines">lines</i></span><span>~19,116 <i data-i18n="words">words</i></span><span>~8.3 <i data-i18n="hours">h</i></span></p>
+  </a>
+  <a class="card" href="readers/herwig-reading-and-exercises/index.html">
+    <h3>Lese- und Übungsbuch für den griechischen Anfangsunterricht</h3>
+    <p class="au">Christian Herwig</p>
+    <p class="ed">Lese- und Übungsbuch für den griechischen Anfangsunterricht</p>
+    <p class="st"><span>2,412 <i data-i18n="lines">lines</i></span><span>~18,978 <i data-i18n="words">words</i></span><span>~8.3 <i data-i18n="hours">h</i></span></p>
   </a>
   <a class="card" href="readers/edwards-salamis/index.html">
     <h3>Salamis in Easy Attic Greek</h3>
@@ -155,12 +167,6 @@ footer a{color:var(--accent)}
     <p class="ed">Easy Selections: Scenes from the Anabasis</p>
     <p class="st"><span>2,650 <i data-i18n="lines">lines</i></span><span>~21,080 <i data-i18n="words">words</i></span><span>~9.2 <i data-i18n="hours">h</i></span></p>
   </a>
-  <a class="card" href="readers/herwig-reading-and-exercises/index.html">
-    <h3>Зошит для читання і вправ</h3>
-    <p class="au">Christian Herwig</p>
-    <p class="ed">Зошит для читання і вправ</p>
-    <p class="st"><span>2,412 <i data-i18n="lines">lines</i></span><span>~18,978 <i data-i18n="words">words</i></span><span>~8.3 <i data-i18n="hours">h</i></span></p>
-  </a>
   <a class="card" href="readers/cherny-greek-etymology/index.html">
     <h3>Книга упражнений в греческой этимологии</h3>
     <p class="au">Эмилий Чёрный</p>
@@ -187,17 +193,17 @@ footer a{color:var(--accent)}
 (function(){
   var root=document.documentElement, LS=localStorage;
   var T={en:{lines:"lines",words:"words",hours:"h",lang:"УК",
-    lede:"Public-domain Greek readers \u2014 adapted texts, graded stories and exercise books from the 19th century \u2014 digitised from my own scans, OCR'd twice and collated by hand against the print. Free to read online; Alpheios-friendly.",
-    stats:"22 readers \u00B7 45933 lines \u00B7 ~357770 words \u00B7 ~156 hours of reading",
+    lede:"Public-domain Greek readers \u2014 adapted texts, graded stories and exercise books from the 19th century \u2014 digitised from public scans, OCR'd twice and collated by hand against the print. Free to read online; Alpheios-friendly.",
+    stats:"23 readers \u00B7 49650 lines \u00B7 ~384375 words \u00B7 ~167 hours of reading",
     foot:"Texts are in the public domain. The digitisation layer (transcription, proofreading, structure) is licensed <b>__LIC__</b>. Corrections and pull requests welcome."},
    uk:{lines:"\u0440\u044F\u0434\u043A\u0456\u0432",words:"\u0441\u043B\u0456\u0432",hours:"\u0433",lang:"EN",
-    lede:"\u0414\u0430\u0432\u043D\u044C\u043E\u0433\u0440\u0435\u0446\u044C\u043A\u0456 \u0440\u0438\u0434\u0435\u0440\u0438 \u0443 \u0441\u0443\u0441\u043F\u0456\u043B\u044C\u043D\u043E\u043C\u0443 \u043D\u0430\u0434\u0431\u0430\u043D\u043D\u0456 \u2014 \u0430\u0434\u0430\u043F\u0442\u043E\u0432\u0430\u043D\u0456 \u0442\u0435\u043A\u0441\u0442\u0438, \u0433\u0440\u0430\u0434\u0443\u0439\u043E\u0432\u0430\u043D\u0456 \u0456\u0441\u0442\u043E\u0440\u0456\u0457 \u0442\u0430 \u0437\u0431\u0456\u0440\u043D\u0438\u043A\u0438 \u0432\u043F\u0440\u0430\u0432 XIX \u0441\u0442. \u2014 \u043E\u0446\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0456 \u0437 \u0432\u043B\u0430\u0441\u043D\u0438\u0445 \u0441\u043A\u0430\u043D\u0456\u0432, \u0434\u0432\u0430 \u043F\u0440\u043E\u0445\u043E\u0434\u0438 OCR \u0456 \u0440\u0443\u0447\u043D\u0430 \u0437\u0432\u0456\u0440\u043A\u0430 \u0437 \u0434\u0440\u0443\u043A\u043E\u043C.",
-    stats:"22 \u0440\u0438\u0434\u0435\u0440\u0456\u0432 \u00B7 45933 \u0440\u044F\u0434\u043A\u0456\u0432 \u00B7 ~357770 \u0441\u043B\u0456\u0432 \u00B7 ~156 \u0433\u043E\u0434\u0438\u043D \u0447\u0438\u0442\u0430\u043D\u043D\u044F",
+    lede:"\u0414\u0430\u0432\u043D\u044C\u043E\u0433\u0440\u0435\u0446\u044C\u043A\u0456 \u0440\u0438\u0434\u0435\u0440\u0438 \u0443 \u0441\u0443\u0441\u043F\u0456\u043B\u044C\u043D\u043E\u043C\u0443 \u043D\u0430\u0434\u0431\u0430\u043D\u043D\u0456 \u2014 \u0430\u0434\u0430\u043F\u0442\u043E\u0432\u0430\u043D\u0456 \u0442\u0435\u043A\u0441\u0442\u0438, \u0433\u0440\u0430\u0434\u0443\u0439\u043E\u0432\u0430\u043D\u0456 \u0456\u0441\u0442\u043E\u0440\u0456\u0457 \u0442\u0430 \u0437\u0431\u0456\u0440\u043D\u0438\u043A\u0438 \u0432\u043F\u0440\u0430\u0432 XIX \u0441\u0442. \u2014 \u043E\u0446\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0456 \u0437 \u043F\u0443\u0431\u043B\u0456\u0447\u043D\u0438\u0445 \u0441\u043A\u0430\u043D\u0456\u0432, \u0434\u0432\u0430 \u043F\u0440\u043E\u0445\u043E\u0434\u0438 OCR \u0456 \u0440\u0443\u0447\u043D\u0430 \u0437\u0432\u0456\u0440\u043A\u0430 \u0437 \u0434\u0440\u0443\u043A\u043E\u043C.",
+    stats:"23 \u0440\u0438\u0434\u0435\u0440\u0456\u0432 \u00B7 49650 \u0440\u044F\u0434\u043A\u0456\u0432 \u00B7 ~384375 \u0441\u043B\u0456\u0432 \u00B7 ~167 \u0433\u043E\u0434\u0438\u043D \u0447\u0438\u0442\u0430\u043D\u043D\u044F",
     foot:"\u0422\u0435\u043A\u0441\u0442\u0438 \u0443 \u0441\u0443\u0441\u043F\u0456\u043B\u044C\u043D\u043E\u043C\u0443 \u043D\u0430\u0434\u0431\u0430\u043D\u043D\u0456. \u0428\u0430\u0440 \u043E\u0446\u0438\u0444\u0440\u043E\u0432\u043A\u0438 (\u0442\u0440\u0430\u043D\u0441\u043A\u0440\u0438\u043F\u0446\u0456\u044F, \u0432\u0438\u0447\u0438\u0442\u043A\u0430, \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0430) \u2014 \u043F\u0456\u0434 <b>__LIC__</b>. \u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043D\u044F \u0442\u0430 pull request\u0438 \u0432\u0456\u0442\u0430\u044E\u0442\u044C\u0441\u044F."}};
-  var N=22, L=45933, W=357770, H=156, LIC="CC BY-NC 4.0";
+  var N=23, L=49650, W=384375, H=167, LIC="CC BY-NC 4.0";
   var lang=LS.getItem('r.lang')||'en';
   root.dataset.theme=LS.getItem('r.theme')||'sepia';
-  function fmt(s,loc){ return s.replace('22',N.toLocaleString(loc)).replace('45933',L.toLocaleString(loc)).replace('357770',W.toLocaleString(loc)).replace('156',H).replace('__LIC__',LIC); }
+  function fmt(s,loc){ return s.replace('23',N.toLocaleString(loc)).replace('49650',L.toLocaleString(loc)).replace('384375',W.toLocaleString(loc)).replace('167',H).replace('__LIC__',LIC); }
   function apply(){ var t=T[lang], loc=(lang==='uk'?'uk':'en'); root.lang=loc;
     document.querySelectorAll('[data-i18n]').forEach(function(el){ var k=el.getAttribute('data-i18n');
       if(k==='foot'||k==='lede') el.innerHTML=fmt(t[k],loc); else el.textContent=t[k]; });

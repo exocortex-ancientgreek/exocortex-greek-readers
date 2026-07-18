@@ -1,6 +1,6 @@
 # Exocortex — Ancient Greek Readers
 
-**22 public-domain Ancient Greek readers** — adapted texts, graded stories and exercise
+**23 public-domain Ancient Greek readers** — adapted texts, graded stories and exercise
 books from the 19th century — digitised from public scans, OCR'd **twice** and collated by hand
 against the print.
 
@@ -8,10 +8,10 @@ against the print.
 
 | | |
 |---|---|
-| Readers | 22 |
-| Lines | 45,933 |
-| Words | ~357,770 |
-| Reading time | ~156 h @ 2300 words/hour |
+| Readers | 23 |
+| Lines | 49,650 |
+| Words | ~384,375 |
+| Reading time | ~167 h @ 2300 words/hour |
 
 ---
 
@@ -75,6 +75,7 @@ click any word for dictionary entry, morphology and inflection tables, no extens
 |---|---|---:|---:|---|
 | [A First Greek Reader](readers/beresford-douglas-first-greek-reader/index.html) | R. Beresford & R. Douglas | 1,406 | 8,917 | [scan](https://archive.org/details/BERESFORDDOUGLAS-AFirstGreekReader) |
 | [A Greek Boy at Home](readers/rouse-greek-boy-at-home/index.html) | W. H. D. Rouse | 4,067 | 30,706 | [scan](https://archive.org/details/greekboyathomest01rousuoft) |
+| [A Greek Reader](readers/rouse-greek-reader/index.html) | W. H. D. Rouse | 3,717 | 26,605 | [scan](https://archive.org/details/greekreader00rousuoft) |
 | [A Greek Reader for Schools](readers/freeman-lowe-greek-reader-for-schools/index.html) | C. E. Freeman & W. D. Lowe | 1,906 | 15,126 | [scan](https://archive.org/details/greekreaderforsc0000free) |
 | [Easy Greek Reader](readers/abbott-easy-greek-reader/index.html) | Evelyn Abbott | 88 | 7,660 | [scan](https://archive.org/details/easygreekreader00abbogoog) |
 | [First Greek Course](readers/first-greek-course/index.html) | after G. Curtius | 940 | 9,409 | [scan](https://archive.org/details/afirstgreekcour00schegoog) |
@@ -82,6 +83,7 @@ click any word for dictionary entry, morphology and inflection tables, no extens
 | [First Greek Reader](readers/mayor-first-greek-reader/index.html) | John E. B. Mayor | 4,691 | 31,072 | [scan](https://archive.org/details/firstgreekreade00mayogoog) |
 | [First Greek Reader](readers/moss-first-greek-reader/index.html) | Charles M. Moss | 2,060 | 14,557 | [scan](https://archive.org/details/firstgreekreader00mossrich) |
 | [First Greek Reading Book](readers/smith-first-greek-reading-book/index.html) | Sir William Smith | 2,612 | 19,116 | [scan](https://archive.org/details/firstgreekreadin00smituoft) |
+| [Lese- und Übungsbuch für den griechischen Anfangsunterricht](readers/herwig-reading-and-exercises/index.html) | Christian Herwig | 2,412 | 18,978 | [scan](https://ancientlibrary.yatsishin.com/book/108) |
 | [Salamis in Easy Attic Greek](readers/edwards-salamis/index.html) | G. M. Edwards | 782 | 5,176 | [scan](https://archive.org/details/salamisineasyatt00edwa) |
 | [Second Greek Reader](readers/bell-second-greek-reader/index.html) | A. M. Bell | 2,385 | 16,921 | [scan](https://archive.org/details/secondgreekread00xenogoog) |
 | [Stories and Legends](readers/colson-stories-and-legends/index.html) | F. H. Colson | 2,817 | 20,759 | [scan](https://archive.org/details/storieslegendsfi00cols) |
@@ -91,7 +93,6 @@ click any word for dictionary entry, morphology and inflection tables, no extens
 | [The Wars of Greece and Persia](readers/lowe-wars-of-greece-and-persia/index.html) | W. D. Lowe | 1,460 | 8,122 | [scan](https://archive.org/details/warsofgreecepers0000hero) |
 | [Thucydides, Easy Selections](readers/thucydides-easy-selections-moore/index.html) | E. H. Moore | 2,403 | 18,198 | [scan](https://archive.org/details/easyselectionsf00thucgoog) |
 | [Xenophon, Scenes from the Anabasis](readers/xenophon-scenes-from-the-anabasis/index.html) | J. S. Phillpotts & C. S. Jerram | 2,650 | 21,080 | [scan](https://archive.org/details/easyselectionsa00xenogoog) |
-| [Зошит для читання і вправ](readers/herwig-reading-and-exercises/index.html) | Christian Herwig | 2,412 | 18,978 | [scan](https://ancientlibrary.yatsishin.com/book/108) |
 | [Книга упражнений в греческой этимологии](readers/cherny-greek-etymology/index.html) | Эмилий Чёрный | 1,607 | 17,018 | [scan](https://ancientlibrary.yatsishin.com/book/12) |
 | [Начальная греческая хрестоматия](readers/cherny-chrestomathy-1/index.html) | Эмилий Чёрный | 1,988 | 17,145 | [scan](https://ancientlibrary.yatsishin.com/book/62) |
 | [Начальная греческая хрестоматия (т. 2)](readers/cherny-chrestomathy-2/index.html) | Эмилий Чёрный | 2,204 | 20,414 | [scan](https://ancientlibrary.yatsishin.com/book/59) |
