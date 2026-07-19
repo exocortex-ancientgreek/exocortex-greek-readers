@@ -73,29 +73,29 @@ click any word for dictionary entry, morphology and inflection tables, no extens
 
 | Reader | Author / editor | Lines | Words | Source |
 |---|---|---:|---:|---|
-| [A First Greek Reader](readers/beresford-douglas-first-greek-reader/index.html) | R. Beresford & R. Douglas | 1,406 | 8,917 | [scan](https://archive.org/details/BERESFORDDOUGLAS-AFirstGreekReader) |
-| [A Greek Boy at Home](readers/rouse-greek-boy-at-home/index.html) | W. H. D. Rouse | 4,067 | 30,706 | [scan](https://archive.org/details/greekboyathomest01rousuoft) |
-| [A Greek Reader](readers/rouse-greek-reader/index.html) | W. H. D. Rouse | 3,717 | 26,605 | [scan](https://archive.org/details/greekreader00rousuoft) |
-| [A Greek Reader for Schools](readers/freeman-lowe-greek-reader-for-schools/index.html) | C. E. Freeman & W. D. Lowe | 1,906 | 15,126 | [scan](https://archive.org/details/greekreaderforsc0000free) |
-| [Easy Greek Reader](readers/abbott-easy-greek-reader/index.html) | Evelyn Abbott | 88 | 7,660 | [scan](https://archive.org/details/easygreekreader00abbogoog) |
-| [First Greek Course](readers/first-greek-course/index.html) | after G. Curtius | 940 | 9,409 | [scan](https://archive.org/details/afirstgreekcour00schegoog) |
-| [First Greek Reader](readers/coy-first-greek-reader/index.html) | Edward G. Coy | 2,270 | 16,542 | [scan](https://archive.org/details/firstgreekreade00coygoog) |
-| [First Greek Reader](readers/mayor-first-greek-reader/index.html) | John E. B. Mayor | 4,691 | 31,072 | [scan](https://archive.org/details/firstgreekreade00mayogoog) |
-| [First Greek Reader](readers/moss-first-greek-reader/index.html) | Charles M. Moss | 2,060 | 14,557 | [scan](https://archive.org/details/firstgreekreader00mossrich) |
-| [First Greek Reading Book](readers/smith-first-greek-reading-book/index.html) | Sir William Smith | 2,612 | 19,116 | [scan](https://archive.org/details/firstgreekreadin00smituoft) |
-| [Lese- und Übungsbuch für den griechischen Anfangsunterricht](readers/herwig-reading-and-exercises/index.html) | Christian Herwig | 2,412 | 18,978 | [scan](https://ancientlibrary.yatsishin.com/book/108) |
-| [Salamis in Easy Attic Greek](readers/edwards-salamis/index.html) | G. M. Edwards | 782 | 5,176 | [scan](https://archive.org/details/salamisineasyatt00edwa) |
-| [Second Greek Reader](readers/bell-second-greek-reader/index.html) | A. M. Bell | 2,385 | 16,921 | [scan](https://archive.org/details/secondgreekread00xenogoog) |
-| [Stories and Legends](readers/colson-stories-and-legends/index.html) | F. H. Colson | 2,817 | 20,759 | [scan](https://archive.org/details/storieslegendsfi00cols) |
-| [Stories from Herodotus](readers/phillpotts-stories-from-herodotus/index.html) | J. S. Phillpotts | 617 | 4,886 | [scan](https://archive.org/details/storiesfromhero01herogoog) |
-| [Stories in Attic Greek](readers/morice-stories-in-attic-greek/index.html) | F. D. Morice | 3,178 | 25,273 | [scan](https://archive.org/details/storiesinatticg00unkngoog) |
-| [Tales from Herodotus](readers/farnell-tales-from-herodotus/index.html) | G. S. Farnell | 1,390 | 10,695 | [scan](https://archive.org/details/talesfromherodot00hero) |
-| [The Wars of Greece and Persia](readers/lowe-wars-of-greece-and-persia/index.html) | W. D. Lowe | 1,460 | 8,122 | [scan](https://archive.org/details/warsofgreecepers0000hero) |
-| [Thucydides, Easy Selections](readers/thucydides-easy-selections-moore/index.html) | E. H. Moore | 2,403 | 18,198 | [scan](https://archive.org/details/easyselectionsf00thucgoog) |
-| [Xenophon, Scenes from the Anabasis](readers/xenophon-scenes-from-the-anabasis/index.html) | J. S. Phillpotts & C. S. Jerram | 2,650 | 21,080 | [scan](https://archive.org/details/easyselectionsa00xenogoog) |
-| [Книга упражнений в греческой этимологии](readers/cherny-greek-etymology/index.html) | Эмилий Чёрный | 1,607 | 17,018 | [scan](https://ancientlibrary.yatsishin.com/book/12) |
-| [Начальная греческая хрестоматия](readers/cherny-chrestomathy-1/index.html) | Эмилий Чёрный | 1,988 | 17,145 | [scan](https://ancientlibrary.yatsishin.com/book/62) |
-| [Начальная греческая хрестоматия (т. 2)](readers/cherny-chrestomathy-2/index.html) | Эмилий Чёрный | 2,204 | 20,414 | [scan](https://ancientlibrary.yatsishin.com/book/59) |
+| [A First Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/beresford-douglas-first-greek-reader/) | R. Beresford & R. Douglas | 1,406 | 8,917 | [scan](https://archive.org/details/BERESFORDDOUGLAS-AFirstGreekReader) |
+| [A Greek Boy at Home](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/rouse-greek-boy-at-home/) | W. H. D. Rouse | 4,067 | 30,706 | [scan](https://archive.org/details/greekboyathomest01rousuoft) |
+| [A Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/rouse-greek-reader/) | W. H. D. Rouse | 3,717 | 26,605 | [scan](https://archive.org/details/greekreader00rousuoft) |
+| [A Greek Reader for Schools](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/freeman-lowe-greek-reader-for-schools/) | C. E. Freeman & W. D. Lowe | 1,906 | 15,126 | [scan](https://archive.org/details/greekreaderforsc0000free) |
+| [Easy Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/abbott-easy-greek-reader/) | Evelyn Abbott | 88 | 7,660 | [scan](https://archive.org/details/easygreekreader00abbogoog) |
+| [First Greek Course](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/first-greek-course/) | after G. Curtius | 940 | 9,409 | [scan](https://archive.org/details/afirstgreekcour00schegoog) |
+| [First Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/coy-first-greek-reader/) | Edward G. Coy | 2,270 | 16,542 | [scan](https://archive.org/details/firstgreekreade00coygoog) |
+| [First Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/mayor-first-greek-reader/) | John E. B. Mayor | 4,691 | 31,072 | [scan](https://archive.org/details/firstgreekreade00mayogoog) |
+| [First Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/moss-first-greek-reader/) | Charles M. Moss | 2,060 | 14,557 | [scan](https://archive.org/details/firstgreekreader00mossrich) |
+| [First Greek Reading Book](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/smith-first-greek-reading-book/) | Sir William Smith | 2,612 | 19,116 | [scan](https://archive.org/details/firstgreekreadin00smituoft) |
+| [Lese- und Übungsbuch für den griechischen Anfangsunterricht](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/herwig-reading-and-exercises/) | Christian Herwig | 2,412 | 18,978 | [scan](https://ancientlibrary.yatsishin.com/book/108) |
+| [Salamis in Easy Attic Greek](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/edwards-salamis/) | G. M. Edwards | 782 | 5,176 | [scan](https://archive.org/details/salamisineasyatt00edwa) |
+| [Second Greek Reader](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/bell-second-greek-reader/) | A. M. Bell | 2,385 | 16,921 | [scan](https://archive.org/details/secondgreekread00xenogoog) |
+| [Stories and Legends](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/colson-stories-and-legends/) | F. H. Colson | 2,817 | 20,759 | [scan](https://archive.org/details/storieslegendsfi00cols) |
+| [Stories from Herodotus](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/phillpotts-stories-from-herodotus/) | J. S. Phillpotts | 617 | 4,886 | [scan](https://archive.org/details/storiesfromhero01herogoog) |
+| [Stories in Attic Greek](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/morice-stories-in-attic-greek/) | F. D. Morice | 3,178 | 25,273 | [scan](https://archive.org/details/storiesinatticg00unkngoog) |
+| [Tales from Herodotus](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/farnell-tales-from-herodotus/) | G. S. Farnell | 1,390 | 10,695 | [scan](https://archive.org/details/talesfromherodot00hero) |
+| [The Wars of Greece and Persia](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/lowe-wars-of-greece-and-persia/) | W. D. Lowe | 1,460 | 8,122 | [scan](https://archive.org/details/warsofgreecepers0000hero) |
+| [Thucydides, Easy Selections](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/thucydides-easy-selections-moore/) | E. H. Moore | 2,403 | 18,198 | [scan](https://archive.org/details/easyselectionsf00thucgoog) |
+| [Xenophon, Scenes from the Anabasis](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/xenophon-scenes-from-the-anabasis/) | J. S. Phillpotts & C. S. Jerram | 2,650 | 21,080 | [scan](https://archive.org/details/easyselectionsa00xenogoog) |
+| [Книга упражнений в греческой этимологии](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/cherny-greek-etymology/) | Эмилий Чёрный | 1,607 | 17,018 | [scan](https://ancientlibrary.yatsishin.com/book/12) |
+| [Начальная греческая хрестоматия](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/cherny-chrestomathy-1/) | Эмилий Чёрный | 1,988 | 17,145 | [scan](https://ancientlibrary.yatsishin.com/book/62) |
+| [Начальная греческая хрестоматия (т. 2)](https://exocortex-ancientgreek.github.io/exocortex-greek-readers/readers/cherny-chrestomathy-2/) | Эмилий Чёрный | 2,204 | 20,414 | [scan](https://ancientlibrary.yatsishin.com/book/59) |
 
 ## Why this exists
 

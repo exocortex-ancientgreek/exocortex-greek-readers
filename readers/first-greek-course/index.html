@@ -53,6 +53,11 @@ html[data-flow="on"] .ln .t::after{content:" "}
 html[data-flow="on"] .ln .num{display:none}
 html[data-flow="on"] .ln .num.flow{display:inline;flex:none;font-size:10px;vertical-align:super;margin-right:3px;opacity:.6}
 html[data-nums="off"][data-flow="on"] .ln .num.flow{display:none}
+/* склеєний перенос: дефіс і пробіл зникають, а номер рядка-продовження не має
+   стояти посеред слова */
+html[data-flow="on"] .ln.hyph .hy{display:none}
+html[data-flow="on"] .ln.hyph .t::after{content:""}
+html[data-flow="on"] .ln.hyph + .ln .num.flow{display:none}
 html[data-toc="off"] nav#toc{display:none}
 html[data-toc="off"] .layout{grid-template-columns:minmax(0,1fr)}
 html[data-center="on"] .blk{max-width:var(--measure);margin-inline:auto}
